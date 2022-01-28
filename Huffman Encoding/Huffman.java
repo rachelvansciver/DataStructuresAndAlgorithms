@@ -2,13 +2,6 @@ import java.io.FileNotFoundException;
 import java.util.*;
 import java.util.Scanner;
 import java.io.File;
-/**@author Rachel Van Sciver
- * COSC 2336 Assignment 3 Exercise 2
- * Write a Java program that reads Huffman code table (like the one above) and a code.
- * Then display the decoded text corresponding to the code, if one exists.
- * If the code is incorrect, then your Java program should say the index of the code with the first decode mismatch.
- * For example, 0110 is not a correct code because after parsing 0 (which decodes into A),
- * there is no clear text for neither 1, nor 11, not 110*/
 public class Huffman {
     static String[] actualHuffmanCode = new String[7];
     //holds huffman codes to test against generated huffman codes

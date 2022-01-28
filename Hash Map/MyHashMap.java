@@ -1,11 +1,5 @@
 import java.util.LinkedList;
 
-/**@author Rachel Van Sciver, COSC 2336 DS&A
- * @param <K> key
- * @param <V> value which is associated with a key
- * Exercise 3. Modify MyHashMap Java class to allow duplicate keys for entries.
- * You may need to modify the implementation for the put(key, value) method. Also add a new method named getAll(key)
- * that returns a set of values that match the key in the map.*/
 public class MyHashMap<K, V> implements MyMap<K, V> {
     // Define the default hash table size. Must be a power of 2
     private final static int DEFAULT_INITIAL_CAPACITY = 4;

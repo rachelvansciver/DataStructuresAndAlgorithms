@@ -1,7 +1,4 @@
-/**@author Rachel Van Sciver, COSC 2336 Assignment 3
- * Write a Java program which uses the previous definition to create a
- * doubly linked list by adding elements one by one, to display the list,
- * and then to remove the elements from both ends or from a particular index.*/
+
 public class DoublyLinkedList<E> {
     Node<E> head = null;
     Node<E> tail = null;
