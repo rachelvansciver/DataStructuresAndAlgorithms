@@ -1,9 +1,4 @@
-/**Assignment 2 (COSC-2336: Data Structures and Algorithms).
- * @author Rachel Van Sciver*/
 public class minHeap {
-    /** Exercise 3. The heapsort() method described in Lecture 6 (and the Sorting Chapter from [Dr. Liang’s textbook]) is also known as max-heap,
-     * in which each node is greater than or equal to any of its children. A min-heap is a heap in which each node is less than or equal to any of its children.
-     * Min-heaps are often used to implement priority queues. Write a Java program which implements the sorting algorithm based on a min-heap data structure.*/
     static int leftNode;
     static int rightNode;
     public static void main(String[] args) {
